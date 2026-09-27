@@ -1,31 +1,38 @@
-# ScreenPond
+# WithinScreenPond
 
-ScreenPond lets you make fractals and the 'droste effect'.
-I made it for my video: 📺 **[Screens in Screens in Screens](https://youtu.be/Q4OIcwt8vcE)**
+WithinScreenPond is a fork of [ScreenPond] converted into a game
 
 ## Try it out!
 
-You can try it at [screenpond.cool](https://screenpond.cool)<br>
+I currently don't have a self hosted website I'll think about it
 
-Draw screens by clicking and dragging!<br>
-Press the number keys to change colour.<br>
-Press "C" to clear the screen.
+And it keeps the controls from the original project
+
+
+>  Draw screens by clicking and dragging!<br>
+>  Press the number keys to change colour.<br>
+
+Except this is replaced with R and is a level reset
+
+>  Press "C" to clear the screen.
 
 ## Running
 
-To run locally...<br>
-you need to run a local server because it uses javascript modules.<br>
-(ie: you can't just open `index.html` like most of my other projects)<br>
+And to run it just follow what the original author put
 
-I recommend getting [deno](https://deno.land)
-and then installing `file_server` with this command:
-
-```
-deno install --allow-read --allow-net https://deno.land/std@0.142.0/http/file_server.ts
-```
-
-Then you can run this command to run a local server:
-
-```
-file_server
-```
+>  To run locally...<br>
+>  you need to run a local server because it uses javascript modules.<br>
+>  (ie: you can't just open `index.html` like most of my other projects)<br>
+>  
+>  I recommend getting [deno](https://deno.land)
+>  and then installing `file_server` with this command:
+>  
+>  ```
+>  deno install --allow-read --allow-net https://deno.land/std@0.142.0/http/file_server.ts
+>  ```
+>  
+>  Then you can run this command to run a local server:
+>  
+>  ```
+>  file_server
+>  ```
